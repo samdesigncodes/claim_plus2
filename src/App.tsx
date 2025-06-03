@@ -1,7 +1,6 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useRef } from "react";
 // import { userService } from "./services/api";
 
-const validateEmail = (email: string) => /\S+@\S+\.\S+/.test(email);
 const validateName = (name: string) => /^[A-Za-z]{2,}$/.test(name);
 
 // const triggerStripeCheckout = () => {
